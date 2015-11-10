@@ -1,0 +1,2 @@
+filenames = ['file1.txt', 'file2.txt', 'file3.txt'...]
+filedata = {filename: open(filename, 'w') for filename in filenames}

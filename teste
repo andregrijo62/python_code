@@ -1,0 +1,5 @@
+kw = dict(compression='gzip')
+fname = './test/data/CTD/g01l06s01.cnv.gz'
+cast = DataFrame.from_cnv(fname, **kw)
+downcast, upcast = cast.split()
+fig, ax = downcast['t090C'].plot()
