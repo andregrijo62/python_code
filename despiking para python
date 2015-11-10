@@ -4,3 +4,4 @@ linha = arquivo.readline() #ler cada linha como string, para depois fazer o loop
 for linha in range(arquivo)#ainda não sei que range usar):
 	#escrever aqui a situação, no caso apagar a linha toda quando apresentar o flag = 0.0000e+00, 0.0000e+00, algo do tipo.
 	arquivo.close()
+
